@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="simple-icons--codingninjas.png">
+    <meta type="description" content="Coding Ninjas Login">
+    <meta type="keyword" content="Coding, coding Ninjas, sign in coding Ninjas">
+    <meta type="author" content="Nitesh Jha">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Already Registered?<u>LOGIN</u> now</h1>
+                <form action="/submit" method="post">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="abc@gmail.com">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password">
+                    <button type="submit" style="width:5%; height:10%">
+                        <img src="simple-icons--codingninjas.png" height ="25%" width="25%"><span>Login</span>
+                    </button>
+                </form>
+               <br>
+               <hr>
+        </section>
+        <section>
+            <div>
+            <h4><a href="https://medium.com/codingninjas-blog">Coding Ninjas Blog</a></h4>
+            <img src="source.png" height="10%" width="100%">
+            </div>
+            <br>
+            <hr>
+        </section>
+    </header>
+    <main>
+        <br>
+        <h1><u>REGISTRATION</u></h1>
+        <br>
+        <form action="/submit" method="post">
+            
+            <label  for="firstName">First Name:&emsp;&emsp;&emsp;</label>
+            <input id="firstName" name="firstName" type="text" ><br>
+            <br>
+            <label for="lastName">Last Name:&emsp;&emsp;&emsp;</label>
+            <input  id="lastName" name="lastName" type="text"><br>
+            <br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; <label id="address" for="flatNo/HouseNo">Flat No./House No.&nbsp;</label>
+            <input id="flatNo/HouseNo" name="flatNo/HouseNo" type="number"><br>
+            <br>
+            <label for="address">Current Address:&ensp;&nbsp;</label>
+
+            <label id="address" for="locality">Locality&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;</label>
+            <input id="locality" name="locality" type="text"><br>
+            <br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;<label id="address" for="city">City&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</label>
+            <input id="city" name="city" type="text"><br>
+            <br>
+            <label for="currentSameAsPermanent"><b>Is Current address and Permanent address same?</b></label>
+            <span id="currentSameAsPermanent">
+                <input type="radio" name="currentSameAsPermanent" value="yes" checked>Yes
+                <input type="radio" name="currentSameAsPermanent" value="no">No
+            </span>
+            <br><br>
+            <label for="email">Email:&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                    <input id="email" type="email" name="email" placeholder="abc@gmail.com"><br>
+                    <br>
+                    <label for="password">Password:&emsp;&emsp;&emsp;&ensp;</label>
+                    <input id="password" type="password" name="password"><br>
+                    <br>
+                    <button type="button" >Register</button>
+        </form>
+    </main>
+</body>
+</html>
